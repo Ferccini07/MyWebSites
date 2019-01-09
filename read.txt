@@ -1,0 +1,7 @@
+Static web site + tehnologije:
+//css w3
+//font awesome
+//html
+//js i jquery
+//izvor - Traversy IT
+//2018

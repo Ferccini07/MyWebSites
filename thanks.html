@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.5, maximum-scale=12.0, minimum-scale=.25, user-scalable=yes"/>
+    <meta name="keywords" content="Klima, Bojler, instalacija, ugradnja, servis, montaža, povoljno">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TOPLO-HLADNO instalacije j.d.o.o. | Grijanje | Klime | Kupaona | Instalacije </title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="thanksBody" class="w3-theme-l3">
+
+    <!-- SEKCIJA 1 -->
+    
+    <div id="thanks" class="w3-container w3-center w3-theme-l1 w3-mobile">
+        <h1>Hvala Vam Na Upitu!</h1>
+        <h2>Odgovoramo u najkraćem mogućem roku</h2>
+        <br>
+        <button class="w3-button w3-theme-l2 w3-large w3-opacity-min"><a href="http://toplohladnoinstalacije.hr"><strong>Natrag na orginalnu stranicu</strong></a></button>
+    </div>
+  
+
+
+    <script>
+        function accFunction(id) {
+            var x = document.getElementById(id);
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else { 
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        $(document).ready(function(){
+            $('input').focus(function(){
+                //alert('focus');
+                $(this).css('background', 'pink');
+            });
+
+            $('input').blur(function(){
+                //alert('focus');
+                $(this).css('background', 'white');
+            });
+            $('textarea').focus(function(){
+                //alert('focus');
+                $(this).css('background', 'pink');
+            });
+            $('textarea').blur(function(){
+                //alert('focus');
+                $(this).css('background', 'white');
+            });
+        });
+    </script>
+
+</body>
+</html>
